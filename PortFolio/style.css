@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+img {
+  width: 100%;
+  display: block;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(11, 61, 82);
+  color: white;
+  height: 10vh;
+  font-size: 20px;
+}
+.header a {
+  color: white;
+}
+.headerleft,
+.headerright,
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: bold;
+}
+.logo {
+  width: 40px;
+  height: 30px;
+  padding-bottom: 40px;
+}
+.logo img {
+  border-radius: 50%;
+}
+.headerright ul li a:hover {
+  color: rgb(14, 12, 12);
+}
+.aboutme {
+  display: flex;
+  padding: 100px 30px;
+
+  color: rgb(255, 255, 255);
+  font-size: large;
+  gap: 10px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
+    url("images/wall2.jpg");
+  background-size: cover;
+}
+.aboutme a {
+  color: white;
+}
+.aboutme .description {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  line-height: 25px;
+  padding: 30px;
+  text-align: center;
+}
+.aboutme .description .buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  margin: 0 auto;
+}
+.buttons button {
+  padding: 12px;
+  letter-spacing: 2px;
+  background-color: rgb(51, 115, 128);
+  border-style: none;
+  font-weight: bold;
+  border-radius: 50px;
+}
+.sectionimage {
+  width: 600px;
+}
+.icons {
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+}
+.icons .fa-github,
+.fa-linkedin-in {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
+.icons .fa-github:hover,
+.fa-linkedin-in:hover {
+  color: rgb(7, 80, 106);
+}
+.skills {
+  background-color: rgb(62, 81, 92);
+  color: rgb(255, 255, 255);
+  gap: 50px;
+  padding: 80px;
+  margin-bottom: 10px;
+  font-size: 17px;
+}
+.skills h1 {
+  margin-bottom: 30px;
+}
+.skillset {
+  text-align: center;
+  padding: 50px;
+}
+.skillset > ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.skillset ul li .lang ul {
+  display: flex;
+  flex-direction: row;
+}
+.langimg {
+  width: 40px;
+}
+.proficient {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 60px;
+  padding: 90px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
+    url("images/wall7.jpg");
+  color: white;
+  margin-bottom: 10px;
+}
+.proficiency {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.proficient ul {
+  display: flex;
+  flex-direction: column;
+  line-height: 30px;
+  gap: 10px;
+}
+.proficient ul li progress {
+  width: 300px;
+  height: 20px;
+}
+.projects {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  padding: 20px;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-around;
+}
+.cards {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9)),
+    url("images/wall8.jpg");
+  color: white;
+}
+
+.projects .proj .thumbnail,
+.content {
+  width: 300px;
+}
+
+.projects .proj .content h4 {
+  background-color: rgb(51, 115, 128);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: large;
+}
+.projects a {
+  color: white;
+}
+
+.projects .proj .content h4 a:hover {
+  color: black;
+}
+
+h2 {
+  text-align: center;
+  padding: 20px 0px;
+  font-weight: bolder;
+  font-size: 30px;
+}
+.achieve {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
+    url("images/wall5.jpeg");
+  background-size: cover;
+  color: white;
+}
+.form {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: center;
+  height: 100vh;
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)),
+    url("images/wall4.jpeg");
+  background-size: cover;
+  padding: 20px 30px;
+  line-height: 50px;
+  font-size: 20px;
+}
+.form .contact {
+  text-align: center;
+}
+.form .contact h4 {
+  color: rgb(203, 200, 85);
+}
+.form .sectionimage img {
+  border-radius: 100%;
+  width: 300px;
+}
