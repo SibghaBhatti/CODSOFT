@@ -1,3 +1,211 @@
+@media screen and (max-width: 656px) {
+  .img {
+    max-width: 100%;
+    display: block;
+    max-height: auto;
+  }
+  body a {
+    text-decoration: none;
+  }
+  body {
+    list-style-type: none;
+    background-color: rgb(232, 226, 226);
+    width: 630px;
+  }
+
+  .header {
+    display: flex;
+    width: 630px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(11, 61, 82);
+    color: white;
+    height: 10vh;
+    font-size: 12px;
+  }
+  .headerleft {
+    display: none;
+  }
+  .logo {
+    width: 40px;
+    height: 20px;
+    padding-bottom: 15px;
+  }
+  .logo img {
+    border-radius: 50%;
+  }
+
+  .headerright ul li a:hover {
+    color: rgb(14, 12, 12);
+  }
+
+  .aboutme {
+    display: flex;
+    flex-direction: column;
+    /* padding: 15px 50px; */
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    /* gap: 8px; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
+      url("images/wall2.jpg");
+    background-size: cover;
+  }
+  .description {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    line-height: 15px;
+    padding: 10px;
+    text-align: center;
+  }
+  .aboutme h1 {
+    line-height: 35px;
+  }
+  .aboutme .buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80px;
+    margin: 20 auto;
+  }
+  .buttons button {
+    width: 70%;
+    margin-bottom: 2%;
+    padding: 12px;
+    letter-spacing: 2px;
+    background-color: rgb(51, 115, 128);
+    border-style: none;
+    font-weight: bold;
+    border-radius: 50px;
+  }
+  .sectionimage img {
+    width: 40%;
+    margin-right: 15%;
+    align-items: center;
+    display: block;
+    border-radius: 50%;
+  }
+  .icons {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+  }
+  .icons .fa-github,
+  .fa-linkedin-in {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+  }
+  .icons .fa-github:hover,
+  .fa-linkedin-in:hover {
+    color: rgb(7, 80, 106);
+  }
+  .skills {
+    background-color: rgb(109, 144, 164);
+    color: rgb(255, 255, 255);
+    width: 100%;
+  }
+  .skills h1 {
+    margin-bottom: 30px;
+  }
+  .skillset .skillspoint {
+    display: none;
+  }
+  .skillset > ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .skillset > ul li {
+    align-items: start;
+  }
+
+  .skillset ul li .lang ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .langimg {
+    width: 50px;
+  }
+  .proficient {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 100px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
+      url("images/wall7.jpg");
+    color: white;
+    margin-bottom: 10px;
+  }
+  .proficiency {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .proficient ul {
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    gap: 10px;
+  }
+  .proficient ul li progress {
+    width: 100%;
+    height: 20px;
+  }
+  .work,
+  .cards .projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .achieve .projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .achieve {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
+      url("images/wall5.jpeg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+  }
+
+  /* .form {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)),
+      url("images/wall4.jpeg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column; /* Change to a column layout on small screens */
+  /* align-items: center; */
+  /* } */
+  .form {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)),
+      url("images/wall4.jpeg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    padding: 20px 30px;
+    line-height: 50px;
+    font-size: 20px;
+  }
+  .form .sectionimage img {
+    display: none;
+  }
+  .form .contact {
+    text-align: center;
+  }
+  .form .contact h4 {
+    color: rgb(203, 200, 85);
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
